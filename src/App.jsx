@@ -10,7 +10,7 @@ export const App = () => {
             <BodyContainer>
                 <LandingPage
                     title="Michael Desormeaux"
-                    tagline="Wannabe Software Developer"
+                    tagline="Actually Awesome Software Developer"
                 />
                 <Intro />
             </BodyContainer>
