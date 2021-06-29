@@ -1,19 +1,19 @@
 {
-  "name": "react-personal-website",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "parcel serve public/index.html --port 8080 --log-level verbose --open",
-    "build": "parcel build public/index.html  --dist-dir build"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "parcel": "2.0.0-beta.2",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "styled-components": "5.3.0"
-  }
+    "name": "react-personal-website",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "parcel serve public/index.html --port 8080 --log-level verbose --open",
+        "build": "parcel build public/index.html  --dist-dir build"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "parcel": "2.0.0-beta.2",
+        "react": "17.0.2",
+        "react-dom": "17.0.2",
+        "styled-components": "5.3.0"
+    }
 }

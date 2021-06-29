@@ -1,10 +1,19 @@
-import React from 'react';
+import React from "react";
+import { AppWrapper, BodyContainer, GlobalStyle } from "./AppStyle";
+import { LandingPage } from "./components/LandingPage/LandingPage";
+import { Intro } from "./components/MainContent/Intro";
 
 export const App = () => {
-
     return (
-        <>
-            <h1>Insert your code 💕</h1>
-        </>
+        <AppWrapper>
+            <GlobalStyle />
+            <BodyContainer>
+                <LandingPage
+                    title="Michael Desormeaux"
+                    tagline="Wannabe Software Developer"
+                />
+                <Intro />
+            </BodyContainer>
+        </AppWrapper>
     );
 };
